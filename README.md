@@ -5,7 +5,7 @@ In a binary tree, find the horizontal distance between 2 nodes at the same level
 ![Binary Tree Example Image](/binary_tree_example_image.png)
 
 
-For example in the given tree, the distance betweem node 7 and 1 which are at same level is 2 (considering right child of node 2 and left child of node 3)
+For example in the given tree, the distance between node 7 and 1 which are at same level is 2 (considering right child of node 2 and left child of node 3)
 
 
 **Input Data:**
