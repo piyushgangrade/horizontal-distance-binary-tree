@@ -51,4 +51,4 @@ The statements of counting nodes where a sibling is missing is repeating because
 
 ![Test Case 7 Image](/images/testcase7.png)
 
-This case is **not working** as the node 9 is left child of node 7 and node 4 is the left child of of node 1, there is 3 nodes (sibling of 7, Sibling of 2 and sibling of 3) missing in between. So when calculating horizontal distance, it should give 3 as output but instead it's  resulting 4
+This case is **not working** as the node 9 is left child of node 7 and node 4 is the left child of of node 1, there is 3 nodes (sibling of 7, sibling of 2 and sibling of 3) missing in between. So when calculating horizontal distance, it should give 3 as output but instead it's resulting 4
