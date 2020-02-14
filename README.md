@@ -47,8 +47,8 @@ root->right->right->right = newNode(6);
 
 The statements of counting nodes where a sibling is missing is repeating because it's being executed for both node 4 and node 6 as we have to traverse right to get there. *I don't know how I can solve it without seperating traversing condiitons. Please suggest if you any idea on how to make it better.*
 
-*Test Case 7:* Checking for nodes 11 and 4 (when node 11 is also included in the tree)
+*Test Case 7:* Checking for nodes 9 and 4
 
 ![Test Case 7 Image](/images/testcase7.png)
 
-This case is **not working** according to me as the node 11 is right child of node 7 and node 4 is the left child of of node 1, therefore when calculating horizontal distance it should give 2 as output but instead resulting 4
+This case is **not working** as the node 9 is left child of node 7 and node 4 is the left child of of node 1, there is 3 nodes (sibling of 7, Sibling of 2 and sibling of 3) missing in between. So when calculating horizontal distance, it should give 3 as output but instead it's  resulting 4
