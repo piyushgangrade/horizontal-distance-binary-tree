@@ -45,3 +45,4 @@ root.left.left.left = TreeNode(9)
 
 print("For the nodes 9 and 4, the horizontal distance is:", findHorizontalDistance(root, 9, 4))
 print("For the nodes 7 and 1, the horizontal distance is:", findHorizontalDistance(root, 7, 1))
+print("For the nodes 9 and 6, the horizontal distance is:", findHorizontalDistance(root, 9, 6))

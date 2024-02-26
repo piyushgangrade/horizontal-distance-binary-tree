@@ -52,9 +52,8 @@ root->right->left->left = new TreeNode(4);
 root->right->left->right = new TreeNode(6);
 root->left->left->left = new TreeNode(9);
 
-*Test Case:* Checking for nodes (9, 60)
+*Test Cass:* Checking for nodes
 
-![Test Case C++ Image](/images/testcase4.png)
 ![Test Case Python Image](/images/py_code_run.png)
 
-P.S. Revisited this problem in 2024 and updated the old code written in 2019.
+P.S. Revisited this problem in Feb 2024 and updated the old code written in Jan 2020. Also added it in Python.
